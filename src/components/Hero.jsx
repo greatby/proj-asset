@@ -19,7 +19,7 @@ export default function Hero() {
 
       {/* Centered Content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white">
-        <h1 className="text-5xl md:text-7xl font-semibold leading-tight space-x-2">
+        <h1 className="text-5xl md:text-7xl font-title font-normal leading-tight space-x-2">
           <span className="inline-block">AI-Powered</span>{" "}
           <span className="inline-block">Automation</span> <br />
           <span className="inline-block">for</span>{" "}

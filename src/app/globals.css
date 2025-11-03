@@ -1,5 +1,44 @@
 @import "tailwindcss";
 
-body{
-    overflow-x: hidden;
+body {
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "TitleFont";
+  src: url("/fonts/AssetFontTwo.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MainFont";
+  src: url("/fonts/AssetFontOne.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* -------------------------
+   Root Font Variables
+-------------------------- */
+:root {
+  --font-title: "TitleFont", sans-serif;
+  --font-main: "MainFont", sans-serif;
+}
+
+body,
+html {
+  overflow-x: hidden;
+  font-family: var(--font-main);
+  /* font-feature-settings: "ss04" on; */
+
+}
+
+.font-title {
+  @apply font-sans;
+  font-family: var(--font-title);
+  font-feature-settings: "ss04" on;
+
 }

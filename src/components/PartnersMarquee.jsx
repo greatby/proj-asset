@@ -110,7 +110,7 @@ export default function PartnerTestimonials() {
     <>
       <div className="w-full md:w-[96%] mx-auto ">
         <div className="mt-16 border-[#1e2124] border-t mb-6"></div>
-        <h1 className="text-[2.8rem] w-full md:w-[40%] leading-10">What our partners say about us</h1>
+        <h1 className="text-[2.8rem] font-title w-full md:w-[40%] leading-10">What our partners say about us</h1>
       </div>
       <section className="relative w-full md:w-[96%] mx-auto bg-white overflow-hidden py-20">
         <div className="relative">

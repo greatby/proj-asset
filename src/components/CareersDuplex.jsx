@@ -15,7 +15,7 @@ export default function CareersDuplex() {
 
         {/* Right: Text content */}
         <div className="w-full md:w-1/2 bg-white rounded-md p-10 text-center">
-          <h3 className="text-[2rem] md:text-[3rem] font-semibold text-[#111] mb-6">
+          <h3 className="text-[2rem] font-title md:text-[3rem] font-normal text-[#111] mb-6">
             There is so much left to build
           </h3>
           <p className="text-[#333] text-[26px] leading-relaxed mb-8">
